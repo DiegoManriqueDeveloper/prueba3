@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+body {
+  margin: 0;         
+  padding: 0;
+  min-height:100vh; 
+  background-image:url(img/moto2.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+   background-attachment: fixed;
+  font-family: sans-serif;
+  height: 100vh;
+}

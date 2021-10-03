@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8 ">
+		<title>USUARIOS FULLMOTOS</title>
+		<link rel="STYLESHEET" type="text/css" href="Estilos_tienda.css">
+	</head>
+	<body>
+	    <div class ="titulo">
+	    	<h1>tienda motofull</h1>
+	    </div>
+		<ul class="menu">
+			<li><a style= background:purple; href="http://localhost:8080/usuarios/listar" >usuarios</a>
+			<li><a href="http://localhost:8080/clientes/listar">clientes </a>
+			<li><a href="#">proveedores</a>
+			<li><a href="#">producto</a>
+			<li><a href="http://localhost:8080/ventas/listar">ventas</a>
+			<li><a href="#">reporte</a>
+			<li><a href="login.jsp">salir</a>
+			
+		</ul>	
+			<div class ="form-user">	
+				<form method = "get" action ="./DemoServlet"><br>
+					<label for="cedula" style = color:black;>cedula </label>
+					<input type= "text"placeholder ="ingrese cedula"><br><br>
+					<label for="nombre">nombre  </label>
+					<input type= "text"placeholder ="ingrese nombre completo"><br><br>
+					<label for="correo">e-mail </label>
+					<input type= "text"placeholder ="ingrese e-mail"><br><br>
+					<label for="ussername">ussername </label>
+					<input type= "text"placeholder ="enter ussername"><br><br>
+			
+					<label for="password">password </label>
+					<input type= "password" placeholder ="enter password">
+					<br>
+					<br>
+					<a href="http://localhost:8080/ventas/listar"><input type="submit" value ="consultar"></a>
+					
+					<input type="submit" value ="crear">
+					<input type="submit" value ="actualiza">
+					<input type="submit" value ="borrar">
+					
+				</form>
+			</div>
+	</body>
+</html>
